@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grass, Water, Fire</title>
+
+    <script defer src="script/script.js"></script>
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Grass, Water, Fire</h1>
+        <h4>Choose your Pokémon:</h4>
+    </header>
+    <div class="choices">
+        <button class="choice" data-choice="Bulbasaur"><img src="./assets/bulbasaur.png"
+                alt="Image of Bulbasaur, grass type pokemon" /></button>
+        <button class="choice" data-choice="Squirtle"><img src="./assets/squirtle.png"
+                alt="Image of Squirtle, water type pokemon" /></button>
+        <button class="choice" data-choice="Charmander"><img src="./assets/charmander.png"
+                alt="Image of Charmander, fire type pokemon" /></button>
+    </div>
+    <button id="playButton">Play!</button>
+
+    <div id="resultOverlay" class="overlay">
+        <div class="overlay-content">
+            <span id="closeOverlay" class="close">&times;</span>
+            <div class="result" id="resultDisplay"></div>
+        </div>
+    </div>
+</body>
+
+</html>
